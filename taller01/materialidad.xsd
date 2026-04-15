@@ -1,0 +1,40 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empresa_sostenible">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="stakeholders">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="stakeholder" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="nombre" type="xs:string" use="required"/>
+                                            <xs:attribute name="importancia" type="xs:string" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="temas_materiales">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tema_material" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="denominacion" type="xs:string"/>
+                                        <xs:element name="descripcion" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                    <xs:attribute name="nivel_impacto" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

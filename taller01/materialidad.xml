@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="materialidad.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<empresa_sostenible>
+    
+    <stakeholders>
+        <stakeholder nombre="Usuarios Finales" importancia="Crítica">
+            Expectativa: Accesibilidad universal y rendimiento óptimo en dispositivos de gama baja.
+        </stakeholder>
+        <stakeholder nombre="Equipo de Desarrollo" importancia="Alta">
+            Expectativa: Bienestar laboral, formación continua en tecnologías verdes y ética digital.
+        </stakeholder>
+        <stakeholder nombre="Proveedores de Cloud" importancia="Media-Alta">
+            Expectativa: Transparencia en el mix energético de los centros de datos.
+        </stakeholder>
+    </stakeholders>
+    
+    <temas_materiales>
+        <tema_material id="TM001" nivel_impacto="Ambiental">
+            <denominacion>Eficiencia Energética del Código (Green Code)</denominacion>
+            <descripcion>Optimización de algoritmos y reducción de llamadas innecesarias a la API para minimizar el consumo de CPU.</descripcion>
+        </tema_material>
+        
+        <tema_material id="TM002" nivel_impacto="Social">
+            <denominacion>Accesibilidad Web (WCAG 2.2)</denominacion>
+            <descripcion>Garantizar que las aplicaciones sean perceptibles y operables por personas con diversidad funcional.</descripcion>
+        </tema_material>
+        
+        <tema_material id="TM003" nivel_impacto="Gobernanza">
+            <denominacion>Privacidad por Diseño (PbD)</denominacion>
+            <descripcion>Implementación de medidas de protección de datos desde la fase inicial de la arquitectura de la base de datos.</descripcion>
+        </tema_material>
+    </temas_materiales>
+    
+</empresa_sostenible>
