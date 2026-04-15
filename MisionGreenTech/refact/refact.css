@@ -1,0 +1,41 @@
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #f4fdf4;
+        margin: 0;
+      }
+      /*
+      El nombre de las clases debe ser semántico. En lugar de llamar a una sección .foto-grande-arriba, usamos .hero porque:
+      1. Es universal: Cualquier desarrollador que herede tu código entenderá qué hace esa sección.
+      2. Define jerarquía: Indica que es la sección de mayor peso visual de la arquitectura de la información.
+      */
+      .hero-gigante {
+        background-image: url("https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=3000&auto=format&fit=crop");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+      .btn-eco-redundante {
+        background-color: #28a745 !important;
+        border-color: #1e7e34 !important;
+        padding: 15px 40px;
+        font-size: 1.5rem;
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
