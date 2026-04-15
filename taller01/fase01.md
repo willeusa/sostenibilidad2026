@@ -1,4 +1,4 @@
-# Fundamentos de Stakeholders y Criterios ASG en el Sector Tecnológico
+# Fundamentos de *Stakeholders* y Criterios ASG en el Sector Tecnológico
 
 Willman Acosta Lugo
 
